@@ -47,7 +47,7 @@ class NVActivityIndicatorAnimationBallClipRotate: NVActivityIndicatorAnimationDe
         // Animation
         let animation = CAAnimationGroup()
 
-        animation.animations = [scaleAnimation, rotateAnimation]
+        animation.animations = [rotateAnimation]
         animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
         animation.duration = duration
         animation.repeatCount = HUGE
